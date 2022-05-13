@@ -1,4 +1,4 @@
-//Variaveis tela inicial
+//Variáveis tela inicial
 
 var animação = 0
 var tela = 0;
@@ -153,7 +153,7 @@ function draw() {
     
   }
   
-  //TELA ISNTRUÇÕES
+  //TELA INSTRUÇÕES
   
   if(tela==2){
     
@@ -178,7 +178,7 @@ function draw() {
     
   }
   
-  //TELA CREDITOS
+  //TELA CRÉDITOS
   
   if(tela==3){
     
@@ -220,7 +220,7 @@ function draw() {
   
   //JOGANDO 
   
-  //FACIL
+  //FÁCIL
   else if(tela==4){
     image( papeldeparede , 0, 0, 800, 500);
 
@@ -228,14 +228,14 @@ function draw() {
     textSize(50);
     fill(250);
     textFont("serif")
-    text("Jogando nivel facil", 266, 100);
+    text("Jogando nível fácil", 266, 100);
     
      voltar("Sair") 
 
   }
  
   
-  //MEDIO
+  //MÉDIO
    else if(tela==5){
     image( papeldeparede , 0, 0, 800, 500);
 
@@ -243,14 +243,14 @@ function draw() {
     textSize(50);
     fill(250);
     textFont("serif")
-    text("Jogando nivel Médio", 266, 100);
+    text("Jogando nível Médio", 266, 100);
      
       voltar("Sair") 
 
   }
   
   
-  //DIFICIL
+  //DIFÍCIL
    else if(tela==6){
     image( papeldeparede , 0, 0, 800, 500);
 
@@ -258,7 +258,7 @@ function draw() {
     textSize(50);
     fill(250);
     textFont("serif")
-    text("Jogando nivel dificil", 266, 100);
+    text("Jogando nível difcil", 266, 100);
      
      voltar("Sair") 
 
